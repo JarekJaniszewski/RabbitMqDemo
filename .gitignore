@@ -1,0 +1,69 @@
+#server ignores
+*/**/.vs
+*/**/bin/Debug
+*/**/bin/Release
+*/**/obj/Debug
+*/**/obj/Release
+
+/build/
+*.suo
+*.user
+_ReSharper.*/
+*.sdf
+bin/
+obj/
+Debug/
+Release/
+*.opensdf
+*.tlog
+*.log
+TestResult.xml
+*.VisualState.xml
+Version.cs
+Version.h
+Version.cpp
+#client ignores
+
+# compiled output
+/*/dist
+/*/tmp
+/*/out-tsc
+
+# dependencies
+node_modules
+
+# IDEs and editors
+/.idea
+/.vscode
+.project
+.classpath
+*.launch
+.settings/
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/*/.sass-cache
+/*/connect.lock
+/*/coverage/*
+/*/libpeerconnection.log
+/*npm-debug.log
+/*testem.log
+/*/typings
+/*/.nyc_output/*
+/*/errors.log
+/*/.scannerwork
+
+# e2e
+/*/e2e/*.js
+/*/e2e/*.map
+
+#System Files
+.DS_Store
+Thumbs.db
+dump.rdb
